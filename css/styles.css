@@ -786,10 +786,12 @@ margin-right: 50px;
 
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    transition: border-color 2500ms var(--timing-function);
+    transition: border-color 250ms var(--timing-function);
 }
 
-
+.modal-form-input + .modal-input-icon {
+    transition: fill 250ms var(--timing-function);
+}
 
 .modal-form-input:focus + .modal-input-icon {
     fill: var(--accent-text-color);
@@ -822,6 +824,8 @@ margin-right: 50px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 
+    transition: border-color 250ms var(--timing-function);
+
     resize: none;
 }
 
@@ -831,7 +835,7 @@ margin-right: 50px;
     letter-spacing: 0.01em;
     color: #75757580;
 
-    transition: border-color 2500ms var(--timing-function);
+    
 }
 
 .modal-form-textarea:focus {
