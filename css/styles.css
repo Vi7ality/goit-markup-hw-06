@@ -959,9 +959,7 @@ margin-right: 50px;
     flex-basis: calc((100% - 90px) / 3);
     z-index: 9;
     border: 4px;
-    border: 1px solid red;
 
-    /* overflow: hidden; */
    
     
 }
@@ -979,7 +977,7 @@ margin-right: 50px;
     position: relative;
 
     content: '';
-    /* position: absolute; */
+
     top: 0;
     left: 0;
     width: 100%;
